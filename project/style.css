@@ -158,7 +158,8 @@ button {
   font-size: 16px;
   padding: 16px;
   margin: 50px 0;
-  background: #ffffff;
+  outline: none;
+  cursor: pointer;
 }
 .button1 {
   border-top-left-radius: 20px;
@@ -207,6 +208,17 @@ button {
   margin-right: 1rem;
   border-radius: 4px;
 }
-/* img {
-  width: 100%;
-} */
+li:last-child button {
+  border-bottom-right-radius: 290486px;
+  border-top-right-radius: 290486px;
+}
+
+li:first-child button {
+  border-bottom-left-radius: 290486px;
+  border-top-left-radius: 290486px;
+}
+
+.active {
+  background: #3273dc;
+  color: #ffffff;
+}
