@@ -17,9 +17,7 @@ function allButtons(data) {
 }
 
 function getPeople(event, data) {
-  // var current = document.getElementsByClassName("active");
   var current = document.getElementsByClassName("active");
-  // console.log(current);
   for (let i = 0; i < current.length; i++) {
     current[i].classList.remove("active");
   }
