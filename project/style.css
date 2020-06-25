@@ -161,16 +161,7 @@ button {
   outline: none;
   cursor: pointer;
 }
-.button1 {
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  outline: none;
-}
-.button11 {
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  outline: none;
-}
+
 
 /* =========card =============== */
 .card {
